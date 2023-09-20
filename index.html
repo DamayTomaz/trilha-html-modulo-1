@@ -1,62 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML-Dio</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="Inicio">HTML e seus recursos!</h1>
+      <hr />
+      <h2>O que são tags html?</h2>
+      <p>"tags" são elementos usados para marcar e estruturar o conteúdo em uma página da web. Elas fornecem instruções para o navegador da web sobre como o conteúdo deve ser exibido e interpretado.<br> As tags HTML são cercadas por colchetes angulares e geralmente vêm em pares, consistindo em uma "tag de abertura" e uma "tag de fechamento"</p>
+      <h3>Tags ultilizadas durante o curso</h3>
+      <ul>
+      <li><a href="#h">H</a></li>
+      <li><a href="#p">P</a></li>
+      <li><a href="#mark">MARK</a></li>
+      <li><a href="#small">SMALL</a></li>
+      <li><a href="#i">I</a></li>
+      <li><a href="#u">U</a></li>
+      <li><a href="#strong">STRONG</a></li>
+      <li><a href="#ol">OL</a></li>
+      <li><a href="#ul">UL</a></li>
+      <li><a href="#li">LI</a></li>
+      <li><a href="#a">A</a></li>
+      <li><a href="#hr">HR</a></li>
+      <li><a href="#sub">SUB</a></li>
+      <li><a href="#blockquote">BLOCKQUOTE</a></li>
+      <li><a href="#font">FONT</a></li>
+      <li><a href="#del">DEL</a></li>
+      <li><a href="#abbr">ABBR</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    </header>
+  </body>
+  <h1 id="h">h1-h6</h1>
+  <p>
+    As teclas H em HTML se referem às tags de cabeçalho de nível (heading tags)
+    de H1 a H6.
+  </p>
+  <p>
+    Essas tags são usadas para criar cabeçalhos ou títulos em uma página da web
+    e são estruturadas hierarquicamente, com H1 sendo o mais importante e H6 o
+    menos importante.
+  </p>
+  <p>Aqui está como elas funcionam:</p>
+  <ul>
+    <li>h1</li>
+        <h1>Exemplo</h1>
+    <li>h2</li>
+        <h2>Exemplo</h2>
+    <li>h3</li>
+        <h3>Exemplo</h3>
+    <li>h4</li>
+        <h4>Exemplo</h4>
+    <li>h5</li>
+        <h5>Exemplo</h5>
+    <li>h6</li>
+        <h6>Exemplo</h6>
+  </ul>
+  <h1 id="p">P</h1>
+  <h2>Parágrafo:</h2>
+    <p>A tag <p> é usada para criar parágrafos de texto em uma página HTML, organizando o conteúdo em blocos legíveis e lógicos.</p>
+  <h1 id="mark">Mark</h1>
+  <h2>Marcação:</h2>
+  <p>A tag mark é usada para destacar ou marcar parte do texto em destaque, geralmente com um fundo amarelo por padrão.</p>
+  <h4>Exemplo:</h4>
+  <p>Estudar na <mark>Dio</mark> é muito bom!</p>
+  <h1 id="small">Small</h1>
+  <h2>Texto pequeno</h2>
+  <p>A tag é usada para indicar que o texto dentro dela deve ser exibido em um tamanho de fonte menor do que o texto circundante.</p>
+  <h4>Exemplo:</h4>
+    <small>Estudar na dio é muito bom!</small>
+  <h1 id="i">I</h1>
+  <h2>Texto em Itálico</h2>
+  <p>A tag i é usada para aplicar estilo de itálico ao texto</p>
+  <h4>Exemplo:</h4>
+  <i>Estudar na Dio é muito bom!</i>
+  <h1 id="u">U</h1>
+  <h2>Texto Sublinhado</h2>
+  <p>A tag u é usada para aplicar sublinhado ao texto</p>
+  <h4>Exemplo:</h4>
+  <u>Estudar na Dio é muito bom!</u>]
+  <h1 id="strong">Strong</h1>
+  <h2>Texto Importante</h2>
+  <p>A tag strong é usada para enfatizar o texto, indicndo que ele é de importância significativa.</p>
+  <h4>Exemplo:</h4>
+  <strong>Estudar na Dio é muito bom!</strong>
+  <h1 id="ol">OL</h1>
+  <h2>Lista Ordenada:</h2>
+  <p>A tag ol é usada para criar listas ordenadas, onde os itens são numerados sequencialmente</p>
+  <h4>Exemplo:</h4>
+  <ol>
+    <li>Criatividade</li>
+    <li>Honestidade</li>
+    <li>Verdade</li>
+  </ol>
+  <h1 id="ul">UL</h1>
+  <h2>Listas Não ordenadas</h2>
+  <p>A tag ul é usada para criar listas não ordenadas, onde os itens são apresentados como marcadores</p>
+  <h4>Exemplo:</h4>
+  <ul>
+    <li>Criatividade</li>
+    <li>Honestidade</li>
+    <li>Verdade</li>
+  </ul>
+  <h1 id="li">LI</h1>
+  <h2>Item de Lista</h2>
+  <p>a tag li é usada dentro de listas (<"ol"> ou <"ul">) para definir itens individuais da lista</p>
+  <h4>Exemplo:</h4>
+  <li>Lealdade</li>
+  <li>Respeito</li>
+  <li>Diversidade</li>
+  <h1 id="a">A</h1>
+  <h2>Âncora(link)</h2>
+  <p>A tag a é usada para criar links para outras paginas ou recursos</p>
+  <h4>Exemplo:</h4>
+  <a href="#Inicio">Clique aqui</a>
+  <h1 id="hr">HR</h1>
+  <h2>Régua Horizontal</h2>
+  <p>A tag hr é usada para inserir uma linha horizontal no documento, geralmente para separar seções de conteúdo.</p>
+  <h4>Exemplo:</h4>
+  <hr>
+  <h1 id="sub">SUB</h1>
+  <h2>Texto sobrecrito</h2>
+  <p>A tag sub é usada para colocar texto em uma posição inferior e menor do que o texto circundante, frequentemente usado para indicar subscritos.</p>
+  <h4>Exemplo:</h4>
+  <p>Estudar na <sub>Dio</sub> é muito bom!</p>
+  <h1 id="blockquote">BLOCKQUOTE</h1>
+  <h2>Bloco de citação</h2>
+  <p>A tag blockquote é usada para criar blocos de texto que são citados de outra fonte.</p>
+  <h4>Exemplo:</h4>
+  <blockquote>
+    <p>Não julgo mais nimguém, nem tento adivinhar os seus sonhos.</p>
+    <footer>Makalister</footer>
+  </blockquote>
+  <h1 id="font">FONT</h1>
+  <h2>Escrita</h2>
+  <p>A tag font é usada para definir a formataçãp de fonte, como tamanho, cor e familia de fonte.</p>
+  <h4>Exemplo:</h4>
+  <font size="4" color="red" face="Arial">Estudar na Dio é muito bom</font>
+  <h1 id="del">DEL</h1>
+  <h2>Texto Deletado</h2>
+  <p>A tag del é usada para marcar texto que foi removido ou deletado de uma versão anterior do conteúdo</p>
+  <h4>Exemplo:</h4>
+  <p>Estudar na <del>Dio</del> é muito bom!</p>
+  <h1 id="abbr">ABBR</h1>
+  <h2>Abreviação</h2>
+  <p>A tag abbr é usada para marcar abreviações em um texto e, opcionalmente, fornecer uma descrição completa do que a abreviação significa.</p>
+  <h4>Exemplo:</h4>
+  <p>A <abbr title="Educação em software">Dio</abbr> é muito boa.</p>
+  <h1>Referências</h1>
+  <h2>Tags mais usadas em html</h2>
+  <a href="https://www.youtube.com/watch?v=-FQP7hD-J6A">Clique aqui!</a>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
-</body>
-</html>
+  </html>
